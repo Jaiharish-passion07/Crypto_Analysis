@@ -7,11 +7,11 @@ def create_table(table_name):
         conn = None
 
         with psycopg2.connect(
-                database="crypto_db",
-                user='postgres',
-                password='123jai',
-                host='localhost',
-                port='5432') as conn:
+                database="#####",
+                user='#####',
+                password='#####',
+                host='#####',
+                port='#####') as conn:
             with conn.cursor(cursor_factory=psycopg2.extras.DictCursor) as cur:
                 # call a stored procedure
                 cur.execute('''CALL pr_create_tables(%s)''',(table_name,))
@@ -30,11 +30,11 @@ def insert_table(table_name,insert_values):
         conn = None
 
         with psycopg2.connect(
-                database="crypto_db",
-                user='postgres',
-                password='123jai',
-                host='localhost',
-                port='5432') as conn:
+                database="#####",
+                user='#####',
+                password='#####',
+                host='#####',
+                port='#####') as conn:
             with conn.cursor(cursor_factory=psycopg2.extras.DictCursor) as cur:
                 if table_name == "top_100_coins":
                     # Insert elements into DB
