@@ -1,0 +1,88 @@
+CREATE OR REPLACE PROCEDURE pr_create_tables(p_table_name varchar(50))
+LANGUAGE plpgsql
+as $$
+BEGIN
+	if p_table_name='top_100_coins' then
+		Perform drop_table(p_table_name);
+		Perform create_table_top_100(p_table_name);	
+	else
+		Perform drop_table(p_table_name);
+		Perform create_table(p_table_name);
+	end if;
+END;
+$$
+
+
+CREATE OR REPLACE PROCEDURE Insert_values_alt_coins(Dates varchar, Open_Price varchar,High_Price varchar,Low_Price varchar,Close_Price varchar,Volume_24hr varchar,Market_Cap varchar, tablename varchar)
+AS $$
+DECLARE 
+  actualTableName varchar := tablename;
+BEGIN --<<<< HERE
+    EXECUTE FORMAT('INSERT INTO %I values($1,$2,$3,$4,$5,$6,$7)',actualTableName) USING Dates,Open_Price,High_Price,Low_Price,Close_Price,Volume_24hr,Market_Cap;	
+END;
+$$
+LANGUAGE plpgsql;  
+
+CREATE OR REPLACE PROCEDURE Insert_values_top_100(coin_name varchar, symbol varchar,price varchar,hr_24 varchar,mkt_cap varchar,vol_24hr varchar, tablename varchar)
+AS $$
+DECLARE 
+  actualTableName varchar := tablename;
+BEGIN --<<<< HERE
+    EXECUTE FORMAT('INSERT INTO %I values($1,$2,$3,$4,$5,$6)',actualTableName) USING coin_name,symbol,price,hr_24,mkt_cap,vol_24hr;
+END;
+$$
+LANGUAGE plpgsql;  
+
+--calling procedure
+CALL pr_create_tables_for_alt_coins('top_100_coins');
+
+--Create functions to create tables
+
+CREATE OR REPLACE FUNCTION create_table(t_name varchar(50))
+  RETURNS VOID
+  LANGUAGE plpgsql AS
+$func$
+BEGIN
+   EXECUTE format('CREATE TABLE IF NOT EXISTS %I (
+							Date VARCHAR ( 50 )   NOT NULL,
+							Open_Price VARCHAR ( 50 ) NOT NULL,
+							High_Price VARCHAR ( 50 )  NOT NULL,
+							Low_Price VARCHAR ( 50 )  NOT NULL,
+							Close_Price VARCHAR ( 50 )  NOT NULL,
+							Volume_24hr VARCHAR ( 50 )  NOT NULL,
+							Market_Cap VARCHAR ( 50 )  NOT NULL
+							)', t_name);
+END
+$func$;
+
+CREATE OR REPLACE FUNCTION create_table_top_100(t_name varchar(50))
+  RETURNS VOID
+  LANGUAGE plpgsql AS
+$func$
+BEGIN
+   EXECUTE format('CREATE TABLE IF NOT EXISTS %I (
+							Name VARCHAR ( 50 )   NOT NULL,
+							Symbol VARCHAR ( 50 ) NOT NULL,
+							Price VARCHAR ( 50 )  NOT NULL,
+							Change_24_hr VARCHAR ( 50 )  NOT NULL,
+							Market_Cap VARCHAR ( 50 )  NOT NULL,
+							Volume_24hr VARCHAR ( 50 )  NOT NULL
+							)', t_name);
+END
+$func$;
+
+--Create functions to drop table
+
+CREATE OR REPLACE FUNCTION drop_table(t_name varchar(50))
+  RETURNS VOID
+  LANGUAGE plpgsql AS
+$func$
+BEGIN
+   EXECUTE format('Drop TABLE IF EXISTS %I ', t_name);
+END
+$func$;
+
+	/* Note:
+		1)I faced pbm when using procedure to create a function
+		2)Then I used function to create table it works
+		*/
