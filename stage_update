@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T05:47:14.063Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36" version="20.2.2" etag="JraW4ndD140iCa1TLDTd" type="github"><diagram id="QjfWTI4TYC89x71ce2Op">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-04T06:25:59.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36" etag="jzoef55p6uZsDvi3LVFI" version="20.2.2" type="github">
+  <diagram id="QjfWTI4TYC89x71ce2Op" name="Page-1">
+    <mxGraphModel dx="711" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xZdy8-B6cxMNt-VCB8bU-52" value="" style="whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#808080;strokeColor=none;rounded=0;fontSize=16;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="60" y="142" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xZdy8-B6cxMNt-VCB8bU-53" value="&lt;font face=&quot;Verdana&quot;&gt;100%&lt;/font&gt;" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=20;fillColor=#FF8000;strokeColor=none;align=left;verticalAlign=middle;fontColor=#ffffff;fontSize=18;spacingLeft=10;fontStyle=1;shadow=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="142" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xZdy8-B6cxMNt-VCB8bU-54" value="" style="whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#808080;strokeColor=none;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="60" y="225" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xZdy8-B6cxMNt-VCB8bU-55" value="&lt;font face=&quot;Verdana&quot;&gt;10%&lt;/font&gt;" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=20;fillColor=#0066CC;strokeColor=none;align=left;verticalAlign=middle;fontColor=#ffffff;fontSize=18;spacingLeft=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="225" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xZdy8-B6cxMNt-VCB8bU-56" value="" style="whiteSpace=wrap;html=1;fixedSize=1;size=10;fillColor=#808080;strokeColor=none;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xZdy8-B6cxMNt-VCB8bU-57" value="&lt;font face=&quot;Verdana&quot;&gt;10%&lt;/font&gt;" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=20;fillColor=#006600;strokeColor=none;align=left;verticalAlign=middle;fontColor=#ffffff;fontSize=18;spacingLeft=10;fontStyle=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xZdy8-B6cxMNt-VCB8bU-62" value="Alpha Stage" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;spacingRight=10;fontFamily=Verdana;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="370" y="147" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xZdy8-B6cxMNt-VCB8bU-63" value="Beta Stage" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;spacingRight=10;fontFamily=Verdana;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="370" y="230" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xZdy8-B6cxMNt-VCB8bU-64" value="Gamma Stage" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=18;spacingRight=10;fontFamily=Verdana;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="380" y="315" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xZdy8-B6cxMNt-VCB8bU-72" value="Progress of Each Stage" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=16;fontColor=#003366;fontFamily=Verdana;fontStyle=1;labelBorderColor=none;shadow=1;arcSize=35;glass=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="135" y="85" width="230" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
