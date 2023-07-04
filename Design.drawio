@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-04T06:46:41.622Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4ebMhVqY_MAQBf7Ijbn9" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-04T07:22:31.227Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="9AQKxYpFFIMrTR_ZKuJ1" version="21.5.2" type="github">
   <diagram name="Page-1" id="w4T9-c-zakdsH0iH4GYn">
-    <mxGraphModel dx="2275" dy="1238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1517" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -335,6 +335,65 @@
         </mxCell>
         <mxCell id="L4LY4rmguNBgHFEG2ncI-119" value="Observer Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#FF9933;" vertex="1" parent="1">
           <mxGeometry x="2370" y="540" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L4LY4rmguNBgHFEG2ncI-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L4LY4rmguNBgHFEG2ncI-120" target="L4LY4rmguNBgHFEG2ncI-125">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1990" y="735" />
+              <mxPoint x="1990" y="1105" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L4LY4rmguNBgHFEG2ncI-120" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Crypto_portfolio_Binance&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ create_iterator()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add_holding()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="690" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="L4LY4rmguNBgHFEG2ncI-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L4LY4rmguNBgHFEG2ncI-122" target="L4LY4rmguNBgHFEG2ncI-130">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2185" y="980" />
+              <mxPoint x="2490" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L4LY4rmguNBgHFEG2ncI-122" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Crypto_portfolio_Kraken&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ create_iterator()&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ add_holding()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2105" y="860" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="L4LY4rmguNBgHFEG2ncI-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L4LY4rmguNBgHFEG2ncI-123" target="L4LY4rmguNBgHFEG2ncI-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L4LY4rmguNBgHFEG2ncI-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="L4LY4rmguNBgHFEG2ncI-122">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2410" y="810" as="sourcePoint" />
+            <mxPoint x="2265" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2340" y="810" />
+              <mxPoint x="2340" y="905" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L4LY4rmguNBgHFEG2ncI-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.024;entryY=0.077;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L4LY4rmguNBgHFEG2ncI-123" target="L4LY4rmguNBgHFEG2ncI-102">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2490" y="600" />
+              <mxPoint x="1690" y="600" />
+              <mxPoint x="1690" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L4LY4rmguNBgHFEG2ncI-123" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Crypto_main_portfolio&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;print_portfolio()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2410" y="750" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="L4LY4rmguNBgHFEG2ncI-125" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Crypto_List_iterator&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ next()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ has_next()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="1060" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="L4LY4rmguNBgHFEG2ncI-128" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=4;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="630" width="840" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="L4LY4rmguNBgHFEG2ncI-129" value="Iterator Pattern" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="600" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L4LY4rmguNBgHFEG2ncI-130" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Crypto_tuple_iterator&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ next()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ has_next()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2410" y="1060" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
